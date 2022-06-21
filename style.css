@@ -1,0 +1,192 @@
+@media  screen and (max-width:1000px) {
+    body{
+        background-color: rgb(255, 149, 20);
+    }
+    header{
+        flex-direction: column;
+    }
+    .ecom{
+        justify-content: center;
+    }
+    ul{
+        justify-content: center;
+    }
+    .img{
+        align-items: center;
+    }
+    .btn{
+        justify-content: center;
+        align-items: center;
+
+    }
+    .logo{
+        justify-content: center;
+    }
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: rgb(57, 130, 232);
+    color: rgb(179, 60, 60);
+    height: 59px;
+
+}
+nav ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+    padding: 9px;
+    
+}
+nav ul a:hover{
+    
+    color: rgb(223, 19, 19);
+    font-style: bold;
+    
+    
+}
+.href{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(20, 71, 172);
+    color: white; 
+    height: 12vh;
+    
+
+}
+.btn{
+    width: 4vw;
+    height: 6vh;
+    padding: 6px;
+    margin:11px;
+    background-color: rgb(238, 136, 136);
+    columns: white;
+    border-radius: 7px;
+    border-color: rgb(199, 205, 212);
+    cursor: pointer;
+
+}
+ul{
+    margin: 8px;
+    
+}
+
+
+nav{
+    display: flex;
+    
+}
+.img{
+    display: flex;
+    width: 8vw;
+    margin: 2px;
+    padding: 2px;
+    
+}
+.img:hover{
+    opacity: 0.8;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.text{
+    width:25vw;
+    padding: 0 12px;
+}
+
+
+
+
+.text-copy{
+    margin: 6px;
+    padding: 24px;
+    text-align: center;
+}
+.container{
+    height: 112vh;
+    
+}
+.ecom{
+    width: 95vw;
+    height: 102vh;
+    margin: 5;
+    padding: 18px;
+}
+
+.box{
+   
+    width: 28vw;
+    height: 14vh;
+    background-color: rgb(240, 242, 255);
+    border: 2px solid black;
+    display: inline;
+}
+.cricket{
+    width: 15vw;
+    height: 29vh;
+    display: inline-block;
+    margin: 9px;
+    padding: 4px;
+}
+.card{
+    margin: 7px;
+    display: inline-block;
+    flex-direction: column;
+    display: flex-box;
+    align-items: center;
+   
+
+
+}
+.h2{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.line{
+    margin: 11px;
+    padding: 2px;
+    
+    
+
+}
+.card-item:hover{
+    background-color: yellow;
+    
+    cursor: pointer;
+    
+}
+.text-center{
+    text-align: center;
+}
+.my-1{
+    margin: 3px;
+    cursor: pointer;
+    color: rgb(4, 4, 4);
+}
+.allinone{
+    background-color:bisque;
+    border-radius: 35px;
+    width: 96vw;
+    margin: 11px;
+}
